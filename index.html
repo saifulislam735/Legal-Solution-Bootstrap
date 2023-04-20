@@ -8,23 +8,74 @@
     <title>Legal Solution With Bootstrap</title>
     <!-- bootstrap css link -->
     <link rel="stylesheet" href="styes/bootstrap.min.css">
+    <!-- css linked file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- popins-google-font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- font-awesome-kit -->
+    <script src="https://kit.fontawesome.com/8f1a0e3ec7.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <!-- header section -->
-    <header>
+    <header class="container">
         <!-- navigation section -->
-        <nav class="d-flex h-auto">
-            <img class="h-100" src="images/logo2.png" alt="">
-            <ul class="d-flex text-info list-unstyled h-auto">
-                <li>Home</li>
-                <li>Services</li>
-                <li>Cases</li>
-                <li>Blog</li>
-                <li>Contact Us</li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary " style="--bs-bg-opacity:0;">
+            <div class="container-fluid">
+                <!-- nav-brand -->
+                <a class="navbar-brand" href="#"><img src="images/logo2.png" alt=""></a>
+                <!-- toggler part -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- nav-content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 text-primary">
+                        <li class="nav-item">
+                            <a class="nav-link active text-para" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-para" aria-current="page" href="#">
+                                Services
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active  text-para" aria-current="page" href="#">
+                                Cases
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-para" aria-current="page" href="#">
+                                Blog
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-para" aria-current="page" href="#">
+                                Contact Us
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <button class="btn btn-bg-color text-white p-3 " type="submit">Free Consultation</button>
+                </div>
+            </div>
         </nav>
         <!-- navigation section end -->
+        <!-- Banner section start-->
+        <section>
+            
+        </section>
+        <!-- Banner section end-->
 
     </header>
     <!-- header section end -->

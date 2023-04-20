@@ -1,0 +1,17 @@
+/* EB Garamond / heading font-family */
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Manrope:wght@500&family=Poppins&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+
+.btn-bg-color{
+    background-color: #B68C5A;
+}
+.head-font-family{
+    font-family:  'EB Garamond', serif;
+}
+
+:root{
+    --bs-body-font-family:'Poppins', sans-serif;/*this is good practice*/
+}
+.text-para{
+    color: #707070 !important; /*this is not good practice*/
+}
