@@ -3,7 +3,7 @@
 
 
 
-
+/* banner */
 .banner{
     background-image: url(../images/banner.png);
     background-repeat: no-repeat;
@@ -17,9 +17,11 @@
 .banner-input input{
     width: 62% !important;
 }
+/* btn */
 .btn-bg-color{
     background-color: #B68C5A;
 }
+/* font-family */
 .head-font-family{
     font-family:'EB Garamond', serif;
 }
@@ -27,6 +29,21 @@
 :root{
     --bs-body-font-family:'Poppins', sans-serif;/*this is good practice*/
 }
+/* paragraph text color */
 .text-para{
     color: #707070 !important; /*this is not good practice*/
+}
+/* footer */
+.text-footer{
+    color: #CFCFCF   !important;
+}
+/* .footer-input{
+    height: 20px !important;
+    
+} */
+.footer-input button{
+    left: 180px;
+}
+.carousel-card-bg-color{
+    background-color: #F3F3F3;
 }
