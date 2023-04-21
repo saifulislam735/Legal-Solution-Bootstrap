@@ -54,3 +54,6 @@
     height: 500px;
     border-radius: 10px;
 }
+.card-gradient{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
